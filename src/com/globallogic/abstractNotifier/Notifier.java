@@ -1,4 +1,4 @@
-package com.globallogic;
+package com.globallogic.abstractNotifier;
 
 public abstract class Notifier {
     private int priority;

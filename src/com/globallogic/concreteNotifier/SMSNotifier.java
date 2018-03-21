@@ -1,4 +1,6 @@
-package com.globallogic;
+package com.globallogic.concreteNotifier;
+
+import com.globallogic.abstractNotifier.Notifier;
 
 public class SMSNotifier extends Notifier {
 

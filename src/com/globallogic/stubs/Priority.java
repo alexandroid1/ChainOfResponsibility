@@ -1,4 +1,4 @@
-package com.globallogic;
+package com.globallogic.stubs;
 
 public class Priority {
     public static final int ROUTINE = 1;

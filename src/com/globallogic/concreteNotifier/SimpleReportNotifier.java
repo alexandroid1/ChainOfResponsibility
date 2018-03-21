@@ -1,6 +1,8 @@
-package com.globallogic;
+package com.globallogic.concreteNotifier;
 
-public class SimpleReportNotifier extends Notifier{
+import com.globallogic.abstractNotifier.Notifier;
+
+public class SimpleReportNotifier extends Notifier {
     public SimpleReportNotifier(int priority) {
         super(priority);
     }

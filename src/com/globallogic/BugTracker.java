@@ -1,5 +1,11 @@
 package com.globallogic;
 
+import com.globallogic.abstractNotifier.Notifier;
+import com.globallogic.concreteNotifier.EmailNotifier;
+import com.globallogic.concreteNotifier.SMSNotifier;
+import com.globallogic.concreteNotifier.SimpleReportNotifier;
+import com.globallogic.stubs.Priority;
+
 public class BugTracker {
 
     public static void main(String[] args) {
